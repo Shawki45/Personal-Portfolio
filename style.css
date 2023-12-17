@@ -1,0 +1,19 @@
+body {
+    background-image: url("./images/palmtree.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 50%;
+}
+img{
+    width: 100px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.ShawkiHaifa {
+    font-weight: bold;
+}
+nav{
+    font-size: large;
+    float: right;
+}
