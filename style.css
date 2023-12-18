@@ -1,19 +1,35 @@
 body {
-    background-image: url("./images/palmtree.webp");
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 50% 50%;
 }
-img{
-    width: 100px;
-    border-radius: 30px;
-    float: left;
+.header{
+    padding: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: aliceblue;
+}
+header h1 nav{
+    display: inline;
+    padding-top: 15px;
     margin-right: 20px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .ShawkiHaifa {
     font-weight: bold;
 }
 nav{
-    font-size: large;
+    font-size: 
+    float
+}
+.Work{
+    font-weight: bold;
+    display: inline-flexbox;
     float: right;
+    font-style: italic;
+
 }
