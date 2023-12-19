@@ -1,35 +1,78 @@
-body {
-    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 50% 50%;
+/* CSS reset statement */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header{
-    padding: 60px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
-    color: aliceblue;
-}
-header h1 nav{
-    display: inline;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-.ShawkiHaifa {
-    font-weight: bold;
-}
-nav{
-    font-size: 
-    float
-}
-.Work{
-    font-weight: bold;
-    display: inline-flexbox;
-    float: right;
-    font-style: italic;
 
+/* this selector statement targets
+the body element */
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50% 50%;
+  border: solid 2px red;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+/* this selector statement targets the html element with
+the class value of header, i.e. class="header" */
+.portfolio {
+  padding: 60px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: blue;
+  color: aliceblue;
+}
+
+/* this selector statement targets the nav element which is
+a child of any h1 element, that at hte same time is a child
+of any header element */
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+
+/* this selector statement targets the html element with
+the class value of ShawkiHaifa */
+.ShawkiHaifa {
+  font-weight: bold;
+}
+
+.Work {
+  font-weight: bold;
+  display: inline-flexbox;
+  float: right;
+  font-style: italic;
+}
+
+section {
+  border: dashed 3px black;
+}
+
+/*  we typically won't target html elements for styling
+using their id values---id values are best suited for
+targeting in JavaScript files */
+#work {
+  display: inline;
+  font-weight: 100px;
 }
