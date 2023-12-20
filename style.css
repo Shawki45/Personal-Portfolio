@@ -54,25 +54,36 @@ nav ul li {
 
 /* this selector statement targets the html element with
 the class value of ShawkiHaifa */
-.ShawkiHaifa {
-  font-weight: bold;
-}
-
-.Work {
-  font-weight: bold;
-  display: inline-flexbox;
+.work h2{
+  display: flex;
   float: right;
-  font-style: italic;
+  font-weight: bold;
 }
 
-section {
-  border: dashed 3px black;
+ p2{
+  display: flex;
+  justify-content: right;
 }
 
+.contact-me {
+  display: flex;
+  background-color: blue;
+}
+p3{
+  display: flex;
+  justify-content: right;
+}
+
+.Resume{
+  display: flex;
+  justify-content: center;
+}
+
+p4{
+  display:flex;
+  justify-content:right;
+}
 /*  we typically won't target html elements for styling
 using their id values---id values are best suited for
 targeting in JavaScript files */
-#work {
-  display: inline;
-  font-weight: 100px;
-}
+
