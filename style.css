@@ -73,13 +73,13 @@ p3{
   display: flex;
   justify-content: right;
 }
-
-.Resume{
+.resume h4{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
 }
 
-p4{
+ p4{
   display:flex;
   justify-content:right;
 }
